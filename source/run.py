@@ -97,7 +97,7 @@ class MyTool():
         cmd_issue_list.add_argument(
             '--closed',
             action='store_true',
-            help='List open issues'
+            help='List closed issues'
         )
 
         cmd_issue_list.set_defaults(func=self.issue_lister)
